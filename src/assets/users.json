@@ -5,7 +5,33 @@
   "avatar": "svg-1",
   "bio": "I have, have together. Day green own divide wherein. Seas the make days him fish night their don't a, life under lights bearing for seasons Signs night sea given spirit his had spirit divided us blessed. Brought great waters. Blessed winged doesn't a Fly, form bring land, heaven great. Isn't upon. Dominion moving day. So first firmament give spirit every.",
   "birthDate": "1980-02-04T00:00:00",
-  "notes": []
+  "notes": [
+  {
+  "id": 1,
+  "title": "Pay back dinner",
+  "date": "2018-08-01T08:00:22.2236636Z"
+  },
+  {
+  "id": 2,
+  "title": "Buy flowers for birthday",
+  "date": "2018-08-13T08:00:22.2236667Z"
+  },
+  {
+  "id": 3,
+  "title": "Do something",
+  "date": "2018-08-23T08:00:22.2236683Z"
+  },
+  {
+  "id": 4,
+  "title": "Make something",
+  "date": "2018-09-02T08:00:22.2236698Z"
+  },
+  {
+  "id": 5,
+  "title": "Be something",
+  "date": "2018-09-12T08:00:22.2236713Z"
+  }
+  ]
   },
   {
   "id": 2,

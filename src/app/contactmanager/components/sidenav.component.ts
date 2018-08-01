@@ -20,6 +20,8 @@ export class SidenavComponent implements OnInit {
     = matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px`);
 
   users: Observable<User[]>;
+  isDarkTheme = false;
+  dir = 'ltr';
 
   constructor(
     zone: NgZone,
@@ -30,6 +32,15 @@ export class SidenavComponent implements OnInit {
   }
 
   @ViewChild(MatSidenav) sidenav: MatSidenav;
+
+  toggleTheme() {
+    this.isDarkTheme = !this.isDarkTheme;
+  }
+
+  toggleDir() {
+    this.dir = this.dir === 'ltr' ? 'rtl' : 'ltr';
+    console.log(`dir is ${this.dir}`);
+  }
 
   ngOnInit() {
     this.users = this.userService.users;
