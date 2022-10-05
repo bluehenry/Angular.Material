@@ -29,7 +29,7 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^6.0.3",
+    "@angular/compiler-cli": "^14.2.5",
     "@angular-devkit/build-ng-packagr": "~0.1002.0",
     "@angular-devkit/build-angular": "~14.2.4",
     "ng-packagr": "^10.1.1",
